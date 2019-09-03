@@ -1,0 +1,22 @@
+.section-about {
+    background-color: $color-grey-light-1;
+    padding: 20rem 1rem;
+    margin-top: -20rem;
+}
+
+.section-cards {
+    margin-top: -20rem;
+    padding: 20rem 0;
+    transform: skewY(-10deg);
+    background-image: linear-gradient(to right, rgba($color-primary-light, 0.3), $color-primary-dark), url(../img/nat-10.jpg);
+
+    & > * {
+        transform: skewY(10deg);
+    }
+}
+
+.section-tours {
+    background-color: $color-grey-light-1;
+    padding: 20rem 0rem;
+    margin-top: -10rem;
+}
