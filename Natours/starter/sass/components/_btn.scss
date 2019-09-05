@@ -29,6 +29,16 @@
             background-color: #ffffff;
         }
     }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+
+        &::after {
+         background-color: $color-primary;
+        }
+    }
+
     &:link,
     &:visited {
         text-transform: uppercase;
